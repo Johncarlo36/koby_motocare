@@ -1,0 +1,4 @@
+[01-Dec-2022 15:31:26 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home2/ktvybhmy/public_html/kobymotorcarecom/wp-admin/user/menu.php:10
+Stack trace:
+#0 {main}
+  thrown in /home2/ktvybhmy/public_html/kobymotorcarecom/wp-admin/user/menu.php on line 10

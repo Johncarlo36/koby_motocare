@@ -1,0 +1,19 @@
+/* Envato Elements Template Kit CSS */
+
+/* Full Height Map Iframe */
+.envato-kit-52-map-fit iframe {
+	height: 100vh;
+}
+/* 3 columns slider */
+@media (min-width: 1024px) {
+	.envato-kit-52-slider-3-col {
+		overflow: hidden;
+	}
+	.envato-kit-52-slider-3-col .slick-list {
+		overflow: visible;
+	}
+	.envato-kit-52-slider-3-col .slick-slide {
+		margin-left: 25px;
+		margin-right: 25px;
+	}
+}

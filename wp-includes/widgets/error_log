@@ -1,0 +1,4 @@
+[01-Dec-2022 15:32:36 America/Boise] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home2/ktvybhmy/public_html/kobymotorcarecom/wp-includes/widgets/class-wp-widget-tag-cloud.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/ktvybhmy/public_html/kobymotorcarecom/wp-includes/widgets/class-wp-widget-tag-cloud.php on line 17

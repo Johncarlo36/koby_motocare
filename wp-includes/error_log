@@ -1,0 +1,27 @@
+[23-Nov-2022 22:41:01 America/Boise] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home2/ktvybhmy/public_html/kobymotorcarecom/wp-includes/functions.php on line 8
+[23-Nov-2022 22:41:01 America/Boise] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home2/ktvybhmy/public_html/kobymotorcarecom/wp-includes/functions.php on line 8
+[23-Nov-2022 22:41:01 America/Boise] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home2/ktvybhmy/public_html/kobymotorcarecom/wp-includes/functions.php on line 8
+[23-Nov-2022 22:41:01 America/Boise] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home2/ktvybhmy/public_html/kobymotorcarecom/wp-includes/functions.php on line 8
+[23-Nov-2022 22:41:01 America/Boise] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/ktvybhmy/public_html/kobymotorcarecom/wp-includes/functions.php on line 8
+[01-Dec-2022 15:25:45 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home2/ktvybhmy/public_html/kobymotorcarecom/wp-includes/class.wp-dependencies.php:11
+Stack trace:
+#0 {main}
+  thrown in /home2/ktvybhmy/public_html/kobymotorcarecom/wp-includes/class.wp-dependencies.php on line 11
+[03-Aug-2023 16:31:46 America/Boise] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home2/ktvybhmy/public_html/kobymotorcarecom/wp-includes/functions.php on line 8
+[03-Aug-2023 16:31:46 America/Boise] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home2/ktvybhmy/public_html/kobymotorcarecom/wp-includes/functions.php on line 8
+[03-Aug-2023 16:31:46 America/Boise] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home2/ktvybhmy/public_html/kobymotorcarecom/wp-includes/functions.php on line 8
+[03-Aug-2023 16:31:46 America/Boise] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home2/ktvybhmy/public_html/kobymotorcarecom/wp-includes/functions.php on line 8
+[03-Aug-2023 16:31:46 America/Boise] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/ktvybhmy/public_html/kobymotorcarecom/wp-includes/functions.php on line 8
+[21-Oct-2023 11:19:14 America/Boise] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home2/ktvybhmy/public_html/kobymotorcarecom/wp-includes/functions.php on line 8
+[21-Oct-2023 11:19:14 America/Boise] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home2/ktvybhmy/public_html/kobymotorcarecom/wp-includes/functions.php on line 8
+[21-Oct-2023 11:19:14 America/Boise] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home2/ktvybhmy/public_html/kobymotorcarecom/wp-includes/functions.php on line 8
+[21-Oct-2023 11:19:14 America/Boise] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home2/ktvybhmy/public_html/kobymotorcarecom/wp-includes/functions.php on line 8
+[21-Oct-2023 11:19:14 America/Boise] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/ktvybhmy/public_html/kobymotorcarecom/wp-includes/functions.php on line 8
+[05-Dec-2023 08:55:37 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function is_admin() in /home2/ktvybhmy/public_html/kobymotorcarecom/wp-includes/vars.php:23
+Stack trace:
+#0 {main}
+  thrown in /home2/ktvybhmy/public_html/kobymotorcarecom/wp-includes/vars.php on line 23
+[05-Dec-2023 08:55:38 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function is_admin() in /home2/ktvybhmy/public_html/kobymotorcarecom/wp-includes/vars.php:23
+Stack trace:
+#0 {main}
+  thrown in /home2/ktvybhmy/public_html/kobymotorcarecom/wp-includes/vars.php on line 23
